@@ -37,7 +37,7 @@ security_handler = MessageHandler(~Filters.chat(chat_id=list_of_exco), security)
 
 #Token
 load_dotenv('.env')
-updater = Updater(token=os.getenv('SMUX_EXCO_BOT_TOKEN'), use_context=True)
+updater = Updater(token=os.getenv('6492737948:AAG3JzSXqcthrjKJWtvVCPFlgfBfz4KtyYY'), use_context=True)
 dispatcher = updater.dispatcher
 dispatcher.add_handler(security_handler)
 
